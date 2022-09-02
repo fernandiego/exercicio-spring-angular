@@ -1,7 +1,9 @@
 import Pasta from "./Pasta";
+import Situacao from "./Situacao";
 
 export default interface Documento {
-  id: number;
+  id?: number;
   titulo: string;
-  pasta: Pasta;
+  pasta?: Pasta;
+  situacao?: Situacao;
 }
